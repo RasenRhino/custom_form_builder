@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "atlan-362316",
+  "private_key_id": "7eae24d1496c60859bbc7b3ba60afe5301ffa1ba",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDHHxi/xxp2+Vb2\nMnK9oNcwXxhOFcAbfVdOJu6zfB8+QHjv8fcNmRK0ZZmCEyHvBSCoGKqXVVjupScB\nStozD+nKosxwPKXcTxID3wcVixK62jUt7RsyQrv3Ueh/PF0MKBHrr0929PrNkgu4\nO66dPdmfiM3ckt8/2G7cojXhvRLmxLeqMBQbg5MkgZ3uUoncL9cFLIixvttrP4+M\nK2dZQO1zDhqNrTIemFrndb/I7pmwYGbIIkxzoxtfJMfBcy1IshxdcExUiAHCE6CA\nH3VyApzB+aGVbFnMTMyAn8OqQ1OFYmvTC3E4x6dWWXUodggxy/1+AWD9FVj6m/b3\ngxFJ3dJtAgMBAAECggEAWiOSHRLBQLV77+SDe6NJdqy9wG9pMSiK8qZ+LUMVk6U0\n+g3zdDTkukQ5+x+1H1IXZ/EOnIY2xYV+xD+Byla8U45h9LcHsFUdByKZvt9fobVx\nGHK6+oQqOfnawWpuhrfG8QXB98xLku63nnVqBOWAVA9mfaEBLhJIkVlfAesJGOyM\n67vfI9Ud4Nd38H6K+I/qXgEQd+6LEHD3Vw0ZjGn0K814DKM2wlROTFrxWX0RkVpw\njsjozEOvo6RqX0CSxfkv32h/+mVEECsu63R8T6ZRE6GqgTaFNBiQIaH82IXZrE8L\nHLc2uBLcNsSvy+P09tu5awPqwAJadT5cGW5io7nqEwKBgQDng1rNMuT4whZKoKWN\n2FFBwJYGgjalXk6zaAIA+SsPxPNP75KtTlcca7KXNzzFQytWPmuzPYFPgwOeAIiA\nPJ4J8mV7Y9Fyd94TNWN6BEnNFYs1YQsymfCX7yFjr1IMbJYGDW3hy/DKC/h4C+Rr\nQhPSEn+PO4FmzZ83kEAMDkXTuwKBgQDcLq27Q6cpQ2h1SfhAPToq0lYs7D9g2s1N\nRFS/JmsAwTDTqyByot2sW+ta0g31+O6MppuQLgMlpVOT5sOLGbQyX+zHmsm866Iv\ngtYc2PHE5GEmb6SfrpokYyexWfIeCwz0tExy0DW5eq0S+PEg3K2O0tld2jrgx2VL\nF0jIsxiL9wKBgQCgQDg2GaiM2Cv99D0kdjuou9odHz0cMq9fV/srGU5JWBbjmf15\noOSDc7jnGwEhumDhDcwXAdfkZde3Ir9ZpJvwXq0IQAvWpEpAGZCGATnkj6kQhd/u\nYsg7IveFvPGaT/94qQsKZNSDxs1yqyitZcu6ebt6NcJYmrQ/DcaHkcmbyQKBgQCz\nmdfY0rx96iBA3A+Fxuu1llD439Rq2s9wYXaHXX0W5n8/iW00VSlguLHoKUN+Con7\nbMOj/gRPJuZf1HJY+qSEGr73qok4czSecKjaaxP7ORcN1S+BmVjeqYrtHaNjYjw1\nNwTM+o14OFsJCMsXtSpVQCRSa/pu8/bqI5oZLA2vzQKBgEh4KavMbSd7KWk+d9sy\nosnMAXYkYtTVaVMVlr7ZY8Qry59Drp6Y6Cmzuhe9LfRPZYsm0gcS0YwEupuAtXjq\nJYza8EsgL7VfGpmN9+bFEXwTzpl36cSX15MEFzF7u66Z7O8KWHZO4DY7apsgGL+D\nfggp1r0GopV8PmgfQEFVN5zz\n-----END PRIVATE KEY-----\n",
+  "client_email": "atlan-43@atlan-362316.iam.gserviceaccount.com",
+  "client_id": "106216121316117554569",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/atlan-43%40atlan-362316.iam.gserviceaccount.com"
+}

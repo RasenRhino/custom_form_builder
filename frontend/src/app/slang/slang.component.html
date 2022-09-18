@@ -1,0 +1,14 @@
+<div class="slangs">
+<p>slangs</p>
+<select #opt (change)="showslang(opt.value)">
+  <option> </option>
+  <option *ngFor="let city of mainlist">{{city["city"]}}</option>
+  </select>
+  <br>
+  <br>
+<div [hidden]="showslangs">
+  <li *ngFor="let word of slanglist">
+    {{word}}
+  </li>
+</div>
+<div>

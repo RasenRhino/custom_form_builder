@@ -1,0 +1,18 @@
+<div class="gensheet">
+<p>generate sheet</p>
+
+<!-- (change)="getFormStruct(opt.value)" -->
+<select #opt (change)="gensheet(opt.value)">
+  <option> </option>
+  <option *ngFor="let section of formlist" [hidden]="!section.plugin.gensheet">
+    {{section.title}}
+    </option>
+
+  </select>
+  <br>
+  <br>
+  <button (click)="genmysheet()">generate sheet</button>
+  <br>
+  <br>
+  {{stat}}
+</div>

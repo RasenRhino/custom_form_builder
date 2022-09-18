@@ -1,0 +1,28 @@
+<div class="formbuild">
+<p>Form title: &nbsp;</p>
+<input  [(ngModel)]="formtitle">
+<br><br>
+<input  [(ngModel)]="inptitle">
+&nbsp;
+<select #opt>
+  <option value="text">text</option>
+  <option value="number">number</option>
+</select>
+<br>
+<br>
+<button (click)="addInput(opt.value)">add new feild</button>
+<br><br>
+<button (click)="addForm()">Add form </button>
+<br>
+<br>
+<p>plugins</p>
+
+ sms: <input type="checkbox"  [(ngModel)]="formlist.plugin.sms" >
+ <br>
+ generate sheet: <input type="checkbox"  [(ngModel)]="formlist.plugin.gensheet" >
+
+  <p>feilds made for form titled: {{formtitle}}</p>
+<li *ngFor="let input of formlist?.feilds">
+  {{input.name}} {{input.type}}
+</li>
+</div>

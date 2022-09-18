@@ -1,0 +1,18 @@
+<div class="enterdata">
+<p>Enter Form data</p>
+<!-- #opt (change)="sendStr(opt.value)" -->
+<!-- value={{section}} -->
+<select #opt (change)="getFormStruct(opt.value)" >
+  <option> </option>
+  <option *ngFor="let section of formstruct" >{{section.title}}</option>
+  </select>
+
+<p>Form title: {{formschema.title}}</p>
+<li *ngFor="let input of formschema.feilds;let i = index">
+  {{input.name}}:<input type="{{input.type}}" [(ngModel)]="vals[i]">
+</li>
+<button (click)="sendFormData()">send data</button>
+<br>
+<br>
+{{stat}}
+</div>
