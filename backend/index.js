@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const Sentry = require("@sentry/node");
 const Tracing = require("@sentry/tracing");
 Sentry.init({
-  dsn: "https://f953fa98dfca444189ab4313ec56444b@o1408241.ingest.sentry.io/6743667",
+  dsn: "",
 
   tracesSampleRate: 1.0,
 });
@@ -24,7 +24,7 @@ const dbspan=transaction.startChild({
 });
 mongoose
   .connect(
-    'mongodb+srv://rhino:ridham@cluster0.rv0s8cq.mongodb.net/atlan?retryWrites=true&w=majority',
+    '',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
